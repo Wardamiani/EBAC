@@ -160,6 +160,7 @@ ul li {
     margin: 0 auto;
     background-color: rgba(241, 182, 3, 0.327);
     width: 90%;
+    padding: 10px;
 }
 
 /* fim de `paragrafos` */
