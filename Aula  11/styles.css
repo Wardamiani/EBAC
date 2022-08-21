@@ -1,0 +1,160 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Raleway', sans-serif;    
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;     
+    line-height: 3rem;
+}
+
+header {
+    background-color: rgb(255, 245, 220);
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+#logo {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+section {    
+    font-size: 1.5rem;  
+    padding: 20px;  
+}
+
+section nav {    
+    font-size: 1.5rem;
+    display: block;
+    float: left;
+    width: 25%;    
+}
+
+nav li { 
+    margin: 2px 0;
+    padding: 4px;
+    background-color: rgba(255, 211, 129, 0.266);
+    color: black;
+    text-decoration: none;      
+}
+
+nav li:hover {
+    background-color: rgba(190, 93, 2, 0.301);
+    text-decoration: none;
+    color: black;
+    border-right: 3px rgb(255, 106, 0) solid;
+    font-weight: 500;
+    padding-left: 5px;
+    
+    
+}
+
+nav a {      
+    color: rgb(49, 49, 49);
+    text-decoration: none;     
+}
+
+article {
+    margin-left: 1rem;
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+/* paragrafos */
+
+span {
+    font-size: 3rem;
+    background-color: rgba(255, 166, 0, 0.446);    
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(197, 104, 23);
+    margin-bottom: 20px;       
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);
+    margin-top: 20px;   
+    line-height: 1.2;    
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);    
+    margin-top: 20px;
+}
+
+h5 {
+    font-size: 3rem;
+    font-weight: 600; 
+    margin-top: 20px;
+    color: rgb(136, 55, 1);
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    margin: 20px auto;
+}
+
+ol {
+    padding: 1rem;
+}
+
+ol li {
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+    line-height: 4rem;    
+    margin-left: 3rem;    
+}
+
+.container2 {
+    background-color: rgba(241, 182, 3, 0.327);
+}
+
+/* fim de `paragrafos` */
+
+footer {
+    background-color: black;    
+    padding: 10px; 
+    color: white;  
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+#direitos {
+    margin-left: 2rem;
+}
+
+small {
+    font-size: 1rem; 
+    padding-left: 2rem;   
+    line-height: 0rem;
+}
