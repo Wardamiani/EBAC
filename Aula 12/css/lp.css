@@ -8,20 +8,29 @@ body {
 }
 
 
-header {
-    width: 100%;
-    height: 100vmax;
+.header {
+    width: 100%;  
+    height: 71.5vh;
+    background-color: rgb(137, 137, 137);    
+    display: block;  
+    float: left;
     background-image: url(../images/cyber-monday-retail-sales.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
     background-size: contain;
+    
+}
+
+.logo {
+    width: 200px;
+    background-color: black;
+    float: right;
+    margin: 5% 20% 0 65vw;
 }
 
 h1 {
     float: right;
     font-size: 2rem;
-    margin-top: 10vh;
-    margin-left: 60em;
-    margin-right: 10%;
+    margin: 1% 10% 2% 60vw;
     text-align: center;
     line-height: 1.5;
     color: black;
@@ -32,13 +41,18 @@ h1 {
 
 .button {
     float: right;
-    margin-top: 1rem;
-    margin-left: 60%;
-    margin-right: 10%;
+    margin: 0 17% 2.4%;
     color: rgb(244, 214, 157);
     background-color: rgb(136, 121, 121);
     padding: 1.2rem;
     font-weight: 700;
     border-radius: 30px;
 
+}
+
+/* bloco 1 */
+
+.bloco1 {
+    background-color: orange;
+    margin: 0 0 0 0 !important;
 }
