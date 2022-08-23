@@ -1,3 +1,4 @@
+
 html {
     font-size: 62.5%;
     margin: 0;
@@ -19,25 +20,42 @@ body {
 header {
     background-color: rgb(255, 245, 220);
     background-color: black;
-    width: 70%;
-    padding: 10px;
+    width: 100%;
+    padding: 10px;    
 }
 
+/* imagens */
+
 #logo {
-    width: 50%;
+    width: 40rem;
     margin: 1rem auto;
+    margin-left: 2rem;
 }
+
+#principal {
+    max-width: 90%;
+    min-width: 80%;
+    height: auto; 
+    margin-left: auto;
+  margin-right: auto; 
+  display: block;  
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* corpo e conteudo */
 
 section {    
     font-size: 1.5rem;  
-    padding: 20px;  
+    padding: 20px;      
 }
 
-section nav {    
+nav {    
     font-size: 1.5rem;
     display: block;
     float: left;
-    width: 25%;    
+    width: 25%;   
+    text-align: left !important;   
 }
 
 nav li { 
@@ -45,7 +63,8 @@ nav li {
     padding: 4px;
     background-color: rgba(255, 211, 129, 0.266);
     color: black;
-    text-decoration: none;      
+    text-decoration: none;   
+    text-align: left !important;        
 }
 
 nav li:hover {
@@ -54,18 +73,18 @@ nav li:hover {
     color: black;
     border-right: 3px rgb(255, 106, 0) solid;
     font-weight: 500;
-    padding-left: 5px;
-    
-    
+    padding-left: 5px; 
+    text-align: left !important;  
 }
 
 nav a {      
     color: rgb(49, 49, 49);
-    text-decoration: none;     
+    text-decoration: none;  
+    text-align: left !important;     
 }
 
 article {
-    margin-left: 1rem;
+    margin-left: 2rem;
     display: block;
     float: left;
     width: 70%;
@@ -74,67 +93,89 @@ article {
 /* paragrafos */
 
 span {
-    font-size: 3rem;
+    font-size: 3.5rem;
     background-color: rgba(255, 166, 0, 0.446);    
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 800;
     color: rgb(197, 104, 23);
-    margin-bottom: 20px;       
+    margin-bottom: 25px;  
+    margin-top: 2rem;
+    line-height: 1.2;
+    text-align: center;
+       
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: rem;
     font-weight: 600;
     color: rgb(160, 87, 23);
-    margin-top: 20px;   
-    line-height: 1.2;    
+    margin-top: 25px;   
+    line-height: 1.2; 
+    text-align: center;   
 }
 
 h3 {
-    font-size: 1.9rem;
+    font-size: 3.3rem;
     font-weight: 600;
     color: rgb(160, 87, 23);
-    margin-top: 20px;
+    margin-top: 25px;
+    text-align: left;   
 }
 
 h4 {
-    font-size: 1.9rem;
+    font-size: 3.3rem;
     font-weight: 600;
     color: rgb(160, 87, 23);    
     margin-top: 20px;
+    text-align: left;   
 }
 
 h5 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600; 
     margin-top: 20px;
     color: rgb(136, 55, 1);
     margin-bottom: 10px;
+    text-align: center;   
 }
 
 p {
     font-weight: 400;
     margin-bottom: 10px;
     line-height: 1.4;
-    margin: 20px auto;
+    margin: 30px auto;
+    text-align: left;  
+    font-size: 2.3rem; 
 }
 
 ol {
     padding: 1rem;
 }
 
-ol li {
+ul li {
     font-weight: 500;
+    font-size: 2rem;
     color: rgb(37, 37, 37);
-    line-height: 4rem;    
-    margin-left: 3rem;    
+    line-height: 4rem;         
+    text-align: center;  
+    list-style-type: none;  
 }
 
 .container2 {
+    margin: 0 auto;
     background-color: rgba(241, 182, 3, 0.327);
+    width: 90%;
+    padding: 10px;
+}
+
+#form {
+    line-height: 1.2;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 /* fim de `paragrafos` */
@@ -147,6 +188,8 @@ footer {
     width: 100%;
     display: block;
     float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #direitos {
@@ -157,4 +200,60 @@ small {
     font-size: 1rem; 
     padding-left: 2rem;   
     line-height: 0rem;
+}
+
+/* formulario */
+
+.cog-branding {
+    visibility: hidden !important;
+ }
+ 
+.cog-abuse {
+    visibility: hidden !important;
+}
+
+.formulario {
+    height: 400px;
+    overflow: hidden;
+}
+
+/* responsividade */
+
+@media only screen and (max-width: 550px) {
+
+    #logo {
+        width: 30rem;
+        margin: .5rem auto;
+        margin-left: 2rem;
+    }
+
+    #principal {
+        max-width: 100%;      
+        height: auto; 
+        margin-left: auto;
+      margin-right: auto; 
+      display: block;  
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  
+    nav {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;  
+        text-align: left;    
+    }
+
+    nav li:hover {
+        border: none;
+        border-bottom: 3px rgb(255, 106, 0) solid;
+    }
+
+    article {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
 }
