@@ -1,0 +1,259 @@
+
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Raleway', sans-serif;    
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;     
+    line-height: 3rem;
+}
+
+header {
+    background-color: rgb(255, 245, 220);
+    background-color: black;
+    width: 100%;
+    padding: 10px;    
+}
+
+/* imagens */
+
+#logo {
+    width: 40rem;
+    margin: 1rem auto;
+    margin-left: 2rem;
+}
+
+#principal {
+    max-width: 90%;
+    min-width: 80%;
+    height: auto; 
+    margin-left: auto;
+  margin-right: auto; 
+  display: block;  
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* corpo e conteudo */
+
+section {    
+    font-size: 1.5rem;  
+    padding: 20px;      
+}
+
+nav {    
+    font-size: 1.5rem;
+    display: block;
+    float: left;
+    width: 25%;   
+    text-align: left !important;   
+}
+
+nav li { 
+    margin: 2px 0;
+    padding: 4px;
+    background-color: rgba(255, 211, 129, 0.266);
+    color: black;
+    text-decoration: none;   
+    text-align: left !important;        
+}
+
+nav li:hover {
+    background-color: rgba(190, 93, 2, 0.301);
+    text-decoration: none;
+    color: black;
+    border-right: 3px rgb(255, 106, 0) solid;
+    font-weight: 500;
+    padding-left: 5px; 
+    text-align: left !important;  
+}
+
+nav a {      
+    color: rgb(49, 49, 49);
+    text-decoration: none;  
+    text-align: left !important;     
+}
+
+article {
+    margin-left: 2rem;
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+/* paragrafos */
+
+span {
+    font-size: 3.5rem;
+    background-color: rgba(255, 166, 0, 0.446);    
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: rgb(197, 104, 23);
+    margin-bottom: 25px;  
+    margin-top: 2rem;
+    line-height: 1.2;
+    text-align: center;
+       
+}
+
+h2 {
+    font-size: rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);
+    margin-top: 25px;   
+    line-height: 1.2; 
+    text-align: center;   
+}
+
+h3 {
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);
+    margin-top: 25px;
+    text-align: left;   
+}
+
+h4 {
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: rgb(160, 87, 23);    
+    margin-top: 20px;
+    text-align: left;   
+}
+
+h5 {
+    font-size: 4rem;
+    font-weight: 600; 
+    margin-top: 20px;
+    color: rgb(136, 55, 1);
+    margin-bottom: 10px;
+    text-align: center;   
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    margin: 30px auto;
+    text-align: left;  
+    font-size: 2.3rem; 
+}
+
+ol {
+    padding: 1rem;
+}
+
+ul li {
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(37, 37, 37);
+    line-height: 4rem;         
+    text-align: center;  
+    list-style-type: none;  
+}
+
+.container2 {
+    margin: 0 auto;
+    background-color: rgba(241, 182, 3, 0.327);
+    width: 90%;
+    padding: 10px;
+}
+
+#form {
+    line-height: 1.2;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* fim de `paragrafos` */
+
+footer {
+    background-color: black;    
+    padding: 10px; 
+    color: white;  
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#direitos {
+    margin-left: 2rem;
+}
+
+small {
+    font-size: 1rem; 
+    padding-left: 2rem;   
+    line-height: 0rem;
+}
+
+/* formulario */
+
+.cog-branding {
+    visibility: hidden !important;
+ }
+ 
+.cog-abuse {
+    visibility: hidden !important;
+}
+
+.formulario {
+    height: 400px;
+    overflow: hidden;
+}
+
+/* responsividade */
+
+@media only screen and (max-width: 550px) {
+
+    #logo {
+        width: 30rem;
+        margin: .5rem auto;
+        margin-left: 2rem;
+    }
+
+    #principal {
+        max-width: 100%;      
+        height: auto; 
+        margin-left: auto;
+      margin-right: auto; 
+      display: block;  
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  
+    nav {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;  
+        text-align: left;    
+    }
+
+    nav li:hover {
+        border: none;
+        border-bottom: 3px rgb(255, 106, 0) solid;
+    }
+
+    article {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+}

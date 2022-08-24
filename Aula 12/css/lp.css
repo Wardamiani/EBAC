@@ -1,0 +1,307 @@
+html {    
+    overflow-x: hidden;     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Raleway', sans-serif;  
+    
+}
+
+
+.header {
+    width: 100%;  
+    height: 98%;
+    background-color: rgb(255, 255, 255); 
+    background-image: url(../images/cyber-monday-retail-sales.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover; 
+    display: block;
+    float: left;
+}
+
+.logo {
+    background-color: black;
+    float: left; 
+    width: 300px;  
+    margin-bottom: 2rem;    
+}
+
+.button {
+    float: right;
+    margin: 0 17% 2.4%;
+    color: rgb(244, 214, 157);
+    background-color: rgb(136, 121, 121);
+    padding: 1.2rem;
+    font-weight: 700;
+    border-radius: 40px;
+    font-size: 2rem;
+
+}
+
+.button:hover {
+    border: 1px rgb(255, 202, 127) solid;
+    background-color: black;
+    color: orange;
+}
+
+h1 {
+    float: right;
+    font-size: 3.5rem;
+    margin: 1% 10% 2% 60vw;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    background-color: rgb(255, 166, 0);
+    padding-top: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 850px) and (min-width: 700px) {
+       
+    h1 {
+        width: 90%;
+        margin: 2rem;
+        font-size: 3rem;
+    }
+
+    .header {
+        background-size:auto;   
+        height: 100%;
+        background-color: white;        
+    }
+
+    .button {
+        width: 60%;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) and (min-width: 340px) {
+    
+    .logo {
+        margin: 0 auto;
+    }
+    
+    .header {
+        background-image: none;
+        background-color: orange;
+        width: 100%;
+        padding-bottom: 10%;
+        height: 130%;
+    }
+    
+    h1 {
+        width: 80%;
+        padding: 10px;
+        margin-left: 20%;                     
+        font-size: 26px;
+        text-align: center;  
+    }
+
+    .button {
+        width: 80%;        
+        margin: 0 10%;
+        text-align: center;
+        padding: 5%;
+        font-size: 20px;
+    }  
+}
+
+/* section */
+
+.bloco1 {
+    background-color: rgb(255, 225, 170);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;       
+    display: block;
+    float: left;   
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: rgb(131, 85, 0);
+    font-weight: 700;
+}
+
+#pag1 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.bloco2 {
+    background-color: rgb(255, 255, 255);    
+    width: 100%;    
+    text-align: center; 
+    height: 21rem;
+    padding: 1%;
+    display: block;
+    float: left;
+    border-top: 2px dashed orange;
+    
+}
+
+.img1 {
+    display: block;
+    float: left;
+    width: 17rem;
+    height: 19rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    color: orange;
+    font-size: 42px;
+    width: 65%;    
+    margin: 20px 10px 0 20px;
+    display: block;
+    float: left;
+    padding-top: 35px;
+}
+
+.bloco3 {
+    background-color: rgb(255, 237, 204);        
+    width: 100%;    
+    text-align: center; 
+    height: 21rem;
+    padding: 1%;
+    display: block;
+    float: left;
+}
+
+.bloco4 {
+    background-color: rgb(255, 255, 255);        
+    width: 100%;    
+    text-align: center; 
+    height: 21rem;
+    padding: 1%;
+    display: block;
+    float: left;
+    border-bottom: 2px dashed orange;
+}
+
+/* formulario */
+
+#h4 {
+    font-size: 35px;
+    text-align: center;    
+    color: rgb(255, 212, 132);
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+
+.formulario {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px;    
+    height: 400px;
+    overflow: hidden;
+}
+
+/* footer */
+
+footer {
+    background-color: black;    
+    padding: 10px; 
+    color: white;  
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#direitos {
+    margin-left: 2rem;
+}
+
+small {
+    font-size: 1rem; 
+    padding-left: 2rem;   
+    line-height: 0rem;
+}
+
+/*  section tablet e smartphone */
+
+@media only screen and (max-width: 850px) and (min-width: 700px) {
+
+    .bloco2 {
+        height: 43vh;
+    }
+
+    .bloco3 {
+         height: 43vh;
+     }
+    
+        .img1 {
+            display: block;
+            float: left;
+            width: 15rem;
+            height: 17rem;
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }        
+    
+        h3 {
+            font-size: 30px;
+            width: 50%;
+            margin-left: 30px;
+            display: block;
+            float: left;
+        }
+    }
+
+    @media screen and (max-width: 600px) and (min-width: 340px) {
+
+        .bloco2, .bloco3, .bloco4 {
+            height: 100%;
+            padding-bottom: 10%;
+            }
+        
+            .img1 {               
+                width: 90%;
+                height: auto; 
+                display: block;               
+            }        
+            h3 {       
+                margin-top: 0;   
+                padding-top: 0;      
+                font-size: 30px;
+                width: 90%;               
+        }
+
+        #h4 {
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1.4;
+    }
+
+        .formulario {
+            display: block;
+            float: left;
+            width: 90%;
+            margin: 10px;    
+            height: 400px;
+            overflow: hidden;
+        }
+    }

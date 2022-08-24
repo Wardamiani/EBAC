@@ -1,2 +1,0 @@
-# EBAC
-Curso Front-End
