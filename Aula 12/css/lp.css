@@ -16,7 +16,7 @@ body {
 
 .header {
     width: 100%;  
-    height: 98vh;
+    height: 98%;
     background-color: rgb(255, 255, 255); 
     background-image: url(../images/cyber-monday-retail-sales.jpg);
     background-repeat: no-repeat;
@@ -74,8 +74,8 @@ h1 {
 
     .header {
         background-size:auto;   
-        height: 100vh;
-        background-color: white;
+        height: 100%;
+        background-color: white;        
     }
 
     .button {
@@ -94,7 +94,8 @@ h1 {
         background-image: none;
         background-color: orange;
         width: 100%;
-        height: 55vh;
+        padding-bottom: 10%;
+        height: 130%;
     }
     
     h1 {
@@ -273,7 +274,8 @@ small {
     @media screen and (max-width: 600px) and (min-width: 340px) {
 
         .bloco2, .bloco3, .bloco4 {
-            height: 96vh;
+            height: 100%;
+            padding-bottom: 10%;
             }
         
             .img1 {               
