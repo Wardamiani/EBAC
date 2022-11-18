@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />    
+    <link href="./style/custom.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+        </style>
+    <title>Blueberry Bakery</title>
+</head>
+
+<body>
+<div id="background"> <!-- home e início -->
+
+    <header>  
+        <nav id="navbar" class="nav2">     
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-2 col-md-1 col-sm-2">  
+            <div>
+            <div>
+                <img id="logo2" src="./imagens/logo2.png" alt="Logo">
+            </div>
+            </div>                             
+            </div>
+                        
+            <div class="col">
+                <ul class="nav justify-content-end">
+                    <li class="nav-iten li">
+                        <a class="nav-link li active" href="">Home</a>
+                    </li>
+                    <li class="nav-iten li"><a class="nav-link li" href="#produtos">Produtos</a></li>
+                    <li class="nav-iten li"><a class="nav-link li" href="#contato">Contato</a></li>                    
+                </ul>
+            </div>
+            </div>
+            </div>  
+        </nav>       
+    </header>
+
+    <div>
+        <img id="logo" src="./imagens/logo.png" alt="Logo">
+    </div>
+
+    <section id="home"> <!-- home -->
+        
+        <div class="container">
+            <h1 class="titulo-principal col-lg-7"><span>Especiais para qualquer ocasião</span></h1>
+        <div class="row">
+        <div class="col-lg-7"><br>
+            
+            <p class="backg"><i>Planeje com antecedência e encomende hoje as suas sobremesas para entrega em até quatro dias.<br>Confira a nossa seleção diversa de pães e panetones artesanais!</i></p><br>
+            <button type="button" class="btn btn-light ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-contato">FAÇA SEU PEDIDO!</button>
+            
+        </div>
+        </div>
+        </div>
+    </section>
+</div>
+
+    <section id="produtos"> <!-- página de produtos -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2 class="card-title titulos">Nossos Produtos</h2>
+                    <h3 class="descricao2">Por mais de 45 anos, a Blueberry Bakery fabrica os produtos de panificação e confeitaria favoritos de São Paulo à moda antiga: do zero, em pequenos lotes e usando os melhores ingredientes.</h3>
+
+                    <div class="card">
+                        <img src="./imagens/cake.jpg" alt="Bolos" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Bolos</h5>
+                            <p class="card-text descricao">Bolo com três camadas de chocolate e creme de frutas. Pura felicidade! Leve também o nosso bolo de cenoura super úmido com cenoura ralada na hora, passas e nozes.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-bolos">Ver detalhes</button>                                
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/paes.jpg" alt="Paes" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Pães</h5>
+                            <p class="card-text descricao">Fermento natural, farinha, água e sal: este é o início da nossa história. Ingredientes naturais, fermentação lenta e know-how ancestral dão vida aos nossos produtos frescos do dia a dia.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-paes">Ver detalhes</button> 
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/brownie.jpg" alt="Brownie" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Brownies</h5>
+                            <p class="card-text descricao">Um clássico: brownies de chocolate recheados com lascas de chocolate e nozes sobre crosta de cracker graham e raspas de limão. Confira também o brownie de vinho.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-paes">Ver detalhes</button> 
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/panettone.jpg" alt="Panettone" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Panettones</h5>
+                            <p class="card-text descricao">Um clássico: brownies de chocolate recheados com lascas de chocolate e nozes sobre crosta de cracker graham e raspas de limão. Confira também o brownie de vinho.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-paes">Ver detalhes</button> 
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/chatarde.jpg" alt="Chá da tarde" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Chá da tarde</h5>
+                            <p class="card-text descricao">As nossas famosas cestas de chá da tarde são perfeitas para presentear amigos e familiares em todas as ocasiões, seja apenas um agradecimento ou um gesto de solidariedade.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-paes">Ver detalhes</button> 
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/cupcakes.jpg" alt="Cupcakes" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title titulos">Cupcakes</h5>
+                            <p class="card-text descricao">Nossos cupcakes são a maneira perfeita de se presentear. Não abrimos mão de grandes sabores e belos designs para deixar você com água na boca! Temos opções variadas.</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark ligue-agora" data-bs-toggle="modal" data-bs-target="#modal-paes">Ver detalhes</button> 
+                              </div>
+                        </div>
+                    </div>  
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div>
+        <p class="descricao3 col-md-6">Nós preparamos todos os pedidos e os enviamos à sua porta para que você possa comer o mais rápido possível!</p>
+    </div>
+
+    <section class="container"> <!-- logo fim -->
+        <img class="container logo-fim col-md-2 mx-auto d-block" src="./imagens/logo.png" alt="Logo">
+    </section>
+
+    <section id="contato">     <!-- contato -->   
+        <div class="container">
+            <div class="row">                
+                <div class="col-lg-6 col-sm-12 titulos">
+                    <h2 class="display-6 mb-5 titulos">Mantenha contato!</h2>
+                    
+                    <p class="descricao3 display-2">Tem alguma dúvida?
+                        Estamos sempre aqui para dar uma mãozinha. <br><br>                        
+                        O horário da equipe de atendimento ao consumidor é de segunda a sábado, das 9h às 17h.<br> <br>
+                        (11) 97534-7607 / (11) 4556-9823</p>
+                </div>
+
+    <form class="col-lg-6 col-sm-12" action="get">
+
+           <div class="form-group">
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <div class="error-hint hidden">Informe o seu nome</div>
+           </div>
+
+           <div class="form-group">
+            <input type="text" name="email" placeholder="Digite seu e-mail">
+            <div class="error-hint hidden">E-mail inválido</div>
+       </div>
+
+            <div class="form-group">
+                <textarea name="message" placeholder="Escreva a sua mensagem"></textarea>
+                <div class="error-hint hidden">Escreva a sua mensagem</div>
+        </div>
+
+           <hr>
+           <button class="btn btn-light button2">Enviar mensagem</button>
+           
+    </form>
+
+    <div class="thank-you hidden">
+         Agradecemos o seu contato! Retornaremos em breve.
+    </div>
+                
+        
+
+<section> <!-- modal -->
+    <!-- modal contato -->
+    <div class="modal fade" id="modal-contato">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h3 class="modal-title ligue-agora"><b>Ligue ou nos mande uma mensagem:</b></h3><hr>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>    
+    <div class="modal-body ligue-agora">
+        <h5>(11) 97534-7607 / (11) 4556-9823</h5>
+    </div>                          
+    </div>
+</section>
+
+<section> <!-- modal bolos -->
+    
+    <div class="modal fade" id="modal-bolos">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h3 class="modal-title titulos"><b>Não é festa sem bolo, né?</b></h3><hr>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>    
+    <div class="modal-body modal-texto">
+        <h4>A nossa gama de bolos de festa é perfeita para qualquer tipo de celebração ou evento, incluindo aniversários, batizados ou eventos corporativos. <br> <br>
+
+            Se procura um fator "uau" para o seu evento, um dos nossos bolos de festa feitos à mão é a escolha certa. Nossa nova linha de bolos de festa é entregue em qualquer lugar da cidade de São Paulo, então dê uma olhada em nossa variedade hoje!</h4>
+    </div>                          
+    </div>
+</section>
+<section> <!-- modal paes -->
+    
+    <div class="modal fade" id="modal-paes">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h3 class="modal-title titulos"><b>Lorem ipsum dolor sit amet</b></h3><hr>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>    
+    <div class="modal-body modal-texto">
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi libero animi ex molestiae quos, quam sit minus officia consectetur dolore. Sequi officiis voluptates adipisci incidunt fugit quos excepturi modi perferendis!</h4>
+    </div>                          
+    </div>
+</section>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./custom.js/custom.js"></script>
+</body>
+
+</html>
