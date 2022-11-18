@@ -1,0 +1,641 @@
+
+html, body {
+    height:100%;
+    width: 100%;  
+}
+.nav2 {
+    background-color: rgba(255, 255, 255, 0.392);
+    width: 100%;
+    position: fixed;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(30px) !important;
+    box-shadow: 0 20px 30px Orgba(o, 0,0,0.15) !important;
+    z-index: 1; 
+    transition: all 0.5s;  
+}
+
+.navactive {
+    background-color: rgba(103, 103, 103, 0.392);
+    width: 100%;
+    position: fixed;
+    -webkit-backdrop-filter: blur(30px) !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 20px 30px Orgba(o, 0,0,0.15) !important;
+    z-index: 1; 
+    transition: all 0.5s; 
+}
+
+#logo {
+    width: 8rem;
+    float: right;
+    margin: 5rem 4rem;
+    margin-bottom: 2rem;
+}
+
+.logo-fim {
+    width: 14rem;    
+    margin-bottom: 3rem !important;
+    align-items: center;   
+}
+
+#logo2 {
+    width: 10rem;        
+}
+
+.li {
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    position: right;
+    margin-top: 1px;
+}
+
+#background {
+    background-image: url(../imagens/imgfundo.jpg);
+    width: 100%;
+    height: 50rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.titulo-principal {
+    padding-top: 10%;
+    font-family: 'lora', 'san-serif';
+    font-weight: 400;
+    text-align: left;
+    font-size: 5rem;
+    color: white; 
+    line-height: 6.4rem;
+}
+
+.span {
+    background-color: #335267;
+}
+
+p {
+    font-family: 'lora', 'san-serif';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;        
+}
+
+.ligue-agora {
+    font-family: 'lora', 'san-serif';
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: .8rem;
+}
+
+.modal-texto {
+    font-family: 'lora', 'san-serif';
+    font-weight: 500;
+    color: #5f5f5f;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.card {
+  width: 32%;
+  float: left;
+  margin: 5px;
+}
+
+.titulos {
+    font-family: 'lora', 'san-serif';
+    font-weight: 600;
+    font-size: 2em;
+    color: rgb(66, 93, 148);
+    text-align: center;   
+}
+
+.descricao {
+    font-family: 'lora', 'san-serif';
+    font-weight: 400;
+    font-size: 1.5em;
+    color: rgb(68, 68, 68);   
+    text-align: center;  
+}
+
+.descricao2 {
+    font-family: 'lora', 'san-serif';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 2.5rem;
+    color: rgb(82, 82, 82);   
+    text-align: center; 
+    margin: 30px auto;    
+}
+
+.descricao3 {
+    font-family: 'lora', 'san-serif';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 2.5rem;
+    color: rgb(82, 82, 82);   
+    text-align: center;     
+    margin-top: 0;   
+    display: block;
+    clear: both;
+    margin:auto;   
+    margin-bottom: 2rem;     
+}
+
+#produtos {
+   background-image: url(../imagens/imgfundo2.jpg);   
+   width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: #335267;    
+    padding: 2rem;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+#contato {
+    background-color: rgba(241, 220, 185, 0.755);
+    padding: 2rem 0 0;    
+}
+
+header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+form {
+    padding: 40px;
+    font-size: 27px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input, textarea {
+    width: 520px;
+    padding: 10px;
+    font-family: 'lora', 'san-serif';
+    color: #335267;
+    border: 1px #335267 solid;
+    border-radius: 7px;
+    margin-bottom: 2px;
+}
+
+input.invalid {
+    border: 2px solid red;      
+}
+
+.error-hint {
+    color: red;
+    font-family: 'lora', 'san-serif';
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.button2 {
+    font-family: 'lora', 'san-serif';
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px;
+    border: #335267 1px solid;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you {
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'lora', 'san-serif';
+    font-weight: 700;
+    color: #335267;
+}
+
+textarea {
+    height: 200px;    
+}
+ 
+.modal-body {
+    background-image: url(../imagens/modal.fundo.jpg);
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    border-radius: 0 0 10px 10px;   
+ }
+
+ @media only screen and (max-width: 375px) {
+   
+    .form-group input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: 'lora', 'san-serif';
+        color: #335267;
+        border: 1px #335267 solid;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #logo2 {
+        width: 10rem;   
+        display: none;     
+    }
+
+    #logo {
+        width: 50%;        
+        margin-top: 35%;  
+        margin-right: 25%;        
+    }
+
+    #background {
+        background-color: #335267;
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .titulo-principal {        
+        font-family: 'lora', 'san-serif';
+        font-weight: 400;
+        text-align: center;
+        font-size: 4rem;
+        color: white; 
+        line-height: 4.4rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    p {
+        font-family: 'lora', 'san-serif';
+        font-weight: 400;
+        font-size: 30px;
+        color: white; 
+        text-align: center;       
+    }
+
+    .ligue-agora {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: .8rem;
+        margin: auto;
+        width: 100%;        
+    }
+
+    .modal-body {
+        background-image: url(../imagens/modal.fundo.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: repeat; 
+        border-radius: 0 0 10px 10px;   
+     }
+
+     .nav-link, .li, .active {
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 104%;
+        color: white;                        
+        margin-top: 1px;
+    }
+  }
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+   
+    .form-group input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: 'lora', 'san-serif';
+        color: #335267;
+        border: 1px #335267 solid;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #logo2 {
+        width: 10rem;   
+        display: none;     
+    }
+
+    #logo {
+        width: 50%;        
+        margin-top: 15%;  
+        margin-right: 25%;        
+    }
+
+    #background {
+        background-color: #335267;
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .titulo-principal {        
+        font-family: 'lora', 'san-serif';
+        font-weight: 400;
+        text-align: center;
+        font-size: 4rem;
+        color: white; 
+        line-height: 4.4rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    p {
+        font-family: 'lora', 'san-serif';
+        font-weight: 400;
+        font-size: 30px;
+        color: white; 
+        text-align: center;       
+    }
+
+    .ligue-agora {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: .8rem;
+        margin: auto;
+        width: 100%;        
+    }
+
+    .modal-body {
+        background-image: url(../imagens/modal.fundo.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: repeat; 
+        border-radius: 0 0 10px 10px;   
+     }
+
+     .nav-link, .li, .active {
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 120%;
+        color: white;                        
+        margin-top: 1px;
+    }
+  }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .form-group input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: 'lora', 'san-serif';
+        color: #335267;
+        border: 1px #335267 solid;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        width: 100%;        
+    }
+
+    #logo2 {
+        width: 8rem;   
+             
+    }
+
+    #logo {
+        width: 18%;                    
+    }
+
+    #background {
+        background-color: #335267;
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .titulo-principal {        
+        font-family: 'lora', 'san-serif';
+        font-weight: 600;
+        text-align: left;
+        font-size: 4rem;
+        margin-bottom: 1em;
+        color: white; 
+        line-height: 4.4rem;
+        margin-top: 1rem;              
+    }
+
+    .backg {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 25px;
+        color: white; 
+        text-align: center;                
+    }
+
+    .ligue-agora {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: .8rem;
+        margin: auto;
+        width: 100%;        
+    }
+
+    .modal-body {
+        background-image: url(../imagens/modal.fundo.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: repeat; 
+        border-radius: 0 0 10px 10px;   
+     }
+
+     .nav-link, .li, .active {
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 120%;
+        color: white;                        
+        margin-top: 1px;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .form-group input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: 'lora', 'san-serif';
+        color: #335267;
+        border: 1px #335267 solid;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        width: 100%;        
+    }
+
+    #logo2 {
+        width: 8rem;   
+             
+    }
+
+    #logo {
+        width: 18%;                    
+    }
+
+    #background {
+        background-color: #335267;
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .titulo-principal {        
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        text-align: left;
+        font-size: 4rem;        
+        color: white; 
+        line-height: 4.4rem;                     
+    }
+
+    .backg {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;        
+        font-size: 25px;
+        color: rgb(255, 255, 255); 
+        text-align: left;              
+        background-color: rgba(0, 0, 0, 0.529);        
+    }
+
+    .ligue-agora {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: .8rem;
+        margin: auto;
+        width: 100%;        
+    }
+
+    .modal-body {
+        background-image: url(../imagens/modal.fundo.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: repeat; 
+        border-radius: 0 0 10px 10px;   
+     }
+
+     .nav-link, .li, .active {
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 120%;
+        color: white;                        
+        margin-top: 1px;
+    }
+  }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .form-group input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: 'lora', 'san-serif';
+        color: #335267;
+        border: 1px #335267 solid;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        width: 32%;     
+        height: 35rem;   
+    }
+
+    .card-text, .descricao {
+        font-size: 20px;
+    }
+
+    #logo2 {
+        width: 8rem;   
+             
+    }
+
+    #logo {
+        width: 18%;                    
+    }
+
+    #background {        
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .titulo-principal {        
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        text-align: left;
+        font-size: 4rem;        
+        color: white; 
+        line-height: 4.4rem;                     
+    }
+
+    .backg {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;        
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255); 
+        text-align: left;        
+    }
+
+    .ligue-agora {
+        font-family: 'lora', 'san-serif';
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: .8rem;
+        margin: auto;
+        width: 60%;        
+    }
+
+    .modal-body {
+        background-image: url(../imagens/modal.fundo.jpg);
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-repeat: repeat; 
+        border-radius: 0 0 10px 10px;   
+     }
+
+     .nav-link, .li, .active {
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 120%;
+        color: white;                        
+        margin-top: 1px;
+    }
+  }
