@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />    
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+  <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.css"> -->
+  <link rel="stylesheet" href="./dist/css/styles.min.css">
+  <!-- <link rel="stylesheet" href="./src/css/style.css">   -->
+    
+    <title>Outsider Store</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="logo" src="./dist/images/outsider.png" alt="Outsider">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item menu">
+            <a class="nav-link" href="#produtos">Produtos</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link nav-modal-open" rel="sobre" href="#sobre">
+            Entregas 
+            </a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link nav-modal-open" rel="contato" href="#contato">
+              Contato
+            </a>
+          </li>          
+          </ul>        
+      </div>
+    </nav>
+
+    <!-- carrossel topo -->    
+      
+      <div class="wapper">
+        <div 
+        
+        class="owl-carousel owl-stage-outer owl-stage">
+          <div class="card2"><img class="card-1" src="./dist/images/principal1.jpg" alt="destaque 1"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada"><b>50% OFF</b> nas compras acima de R$ 300</h2></div>
+          <div class="card2"><img class="card-1" src="./dist/images/principal2.jpg" alt="destaque 2"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada"><b>A coleção de Outono</b> já chegou!</h2></div>
+          <div class="card2"><img class="card-1" src="./dist/images/principal3.jpg" alt="destaque 3"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada">Preços especiais para <b>varejo e atacado</b></h2></div>
+          <div class="card2"><img class="card-1" src="./dist/images/principal4.jpg" alt="destaque 4"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada">Catálogo completo para o <b>Verão</b></h2></div> 
+          <div class="card2"><img class="card-1" src="./dist/images/principal5.jpg" alt="destaque 5"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada">Conheça a coleção <b>Primavera</b></h2></div>
+          <div class="card2"><img class="card-1" src="./dist/images/principal6.jpg" alt="destaque 6"><button type="button" class="btn btn-dark nav-modal-open" rel="comprar" href="#comprar">Comprar</button><h2 id="chamada">O básico para o <b>dia a dia</b> com descontão!</div>         
+        </div>
+      </div>  
+    </div>
+
+    <div>
+      <h2 style="background-color: black; color: white; text-align: center; padding: 1em;">Conheça mais peças do nosso catálogo</h2>
+    </div>
+
+    <!-- carrosel meio -->
+    <section id="produtos" class="owl-carousel owl-theme largura">
+      <div class="featured-item">
+          <img  src="./dist/images/1.webp" alt="Camiseta 1">
+          <h2 id="titulo-camiseta">Camiseta New York</h2>
+          <h3>R$ 90,00</h3>
+          <a class="botao-carrossel-meio" href="">
+              Comprar
+          </a>
+      </div>
+
+      <div class="featured-item">
+          <img class="imagesize" src="./dist/images/2.webp" alt="Camiseta 2">
+          <h2 id="titulo-camiseta">Camiseta cartoon</h2>
+          <h3>R$ 70,00</h3>
+          <a class="botao-carrossel-meio"  href="">
+              Comprar
+          </a>
+      </div>
+
+      <div class="featured-item">
+          <img  class="imagesize" src="./dist/images/3.webp" alt="Camiseta 3">
+          <h2 id="titulo-camiseta">Camiseta QR Code</h2>
+          <h3>R$ 75,00</h3>
+          <a class="botao-carrossel-meio" href="">
+              Comprar
+          </a>
+      </div>
+
+      <div class="featured-item">
+          <img  class="imagesize" src="./dist/images/4.webp" alt="Camiseta 4">
+          <h2 id="titulo-camiseta">Camiseta C'est La Vie</h2>
+          <h3>R$ 70,00</h3>
+          <a class="botao-carrossel-meio" href="">
+              Comprar
+          </a>
+      </div>
+
+      <div class="featured-item">
+          <img class="imagesize" src="./dist/images/5.webp" alt="Camiseta 5">
+          <h2 id="titulo-camiseta">Camiseta preta</h2>
+          <h3>R$ 60,00</h3>
+          <a class="botao-carrossel-meio" href="">
+              Comprar
+          </a>
+      </div>
+
+      <div class="featured-item">
+        <img class="imagesize" src="./dist/images/6.webp" alt="Camiseta 6">
+        <h2 id="titulo-camiseta">Camiseta estampada</h2>
+        <h3>R$ 60,00</h3>
+        <a class="botao-carrossel-meio" href="">
+            Comprar
+        </a>
+      </div>
+ </section> 
+
+    <!-- newsletter -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <h2>Receba a nossa newsletter</h2>
+              <div class="">
+                <form id="subscribe" class="form" action="" method="get">                  
+                    <fieldset>
+                      <input
+                      name="email"
+                      type="text"                    
+                      class="form-control"
+                      id="email"
+                      value=""
+                      placeholder="Seu e-mail"
+                      />
+                    </fieldset>
+                  </div>                  
+                    <fieldset>
+                      <span class="input-group-btn">
+                        <button id="form-submit" class="botao_newsletter" type="submit">Enviar</button>
+                      </span>
+                    </fieldset>   
+                </form>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal geral -->
+    <div
+      class="modal fade"
+      id="modalId"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalTitleId"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content modal-design">
+          <div class="modal-header">
+            <h5 class="modal-title"> <img style="width: 40%;" src="./dist/images/outsider.png" alt="logo"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal Comprar -->
+    <div id="comprar" class="visually-hidden">
+      <h2 id="destaque-modal-h">Ótima escolha!</h2>
+      <p id="destaque-modal-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,consequatur explicabo eos doloribus suscipit impedit nulla voluptates.        
+      </p>
+    </div>
+
+    <!-- modal contato -->
+    <div id="contato" class="visually-hidden">
+      <form action="post" class="form">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Name</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted text-muted-white">Insira seu nome.</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">Insira seu e-mail</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="data" class="form-label">Data</label>
+          <input
+            type="text"
+            name="data"
+            id="data"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">Insira uma data válida</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="hora" class="form-label">Hora</label>
+          <input
+            type="text"
+            name="hora"
+            id="hora"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">Insira uma hora válida</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="cep" class="form-label">CEP</label>
+          <input
+            type="text"
+            name="cep"
+            id="cep"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">Digite seu CEP</small>
+        </div>
+
+        <div class="mb-3">
+          <label for="cel" class="form-label">Celular</label>
+          <input
+            type="text"
+            name="cel"
+            id="cel"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">
+            Digite o número do seu Contato
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="cpf" class="form-label">CPF</label>
+          <input
+            type="text"
+            name="cpf"
+            id="cpf"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+          <small id="helpId" class="text-muted">Digite o seu CPF</small>
+        </div>
+
+        <button type="submit" class="btn btn-dark botao-form">Enviar</button>
+      </form>
+    </div>
+
+    <!-- modal sobre -->
+    <div id="sobre" class="visually-hidden">
+      <p class="sobre">Nós despachamos todos os pedidos dentro de 24 horas em dias úteis. Feriados podem afetar a data. Quando o pedido é enviado, você recebe um e-mail de confirmação do envio. <br><br> A partir do momento em que o pedido é enviado, deve levar de 2 a 7 dias úteis para a entrega, dependendo de onde você mora. <br><br>Se demorar mais, entre em contato conosco e veremos o que pode ter acontecido.</p>    
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-clean">
+        <footer>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-4 col-md-3 item">
+                <h3 class="h3footer">Serviços</h3>
+                <ul>
+                  <li><a href="#">Nossa loja</a></li>
+                  <li><a href="#">Departamentos</a></li>
+                  <li><a href="#">Estoque</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                <h3 class="h3footer">Sobre</h3>
+                <ul>
+                  <li><a href="#">Outsider</a></li>
+                  <li><a href="#">Time</a></li>
+                  <li><a href="#">Legado</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                <h3 class="h3footer">Carreira</h3>
+                <ul>
+                  <li><a href="#">Vagas</a></li>
+                  <li><a href="#">Planos</a></li>
+                  <li><a href="#">Benefícios</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 item social">
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <p class="copyright">Outsider © 2023</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </footer>
+
+    <!-- <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./vendor/jquery-mask/jquery.mask.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.js"></script> -->
+    <script src="./dist/js/scripts.min.js"></script>
+  </body>
+</html>
