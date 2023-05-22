@@ -1,7 +1,6 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,6 @@
     "bootstrap": "^5.2.3",
     "gulp-cli": "^2.3.0",
     "jquery": "^3.7.0"
-  }
+  },
+  "description": ""
 }
