@@ -146,16 +146,27 @@ $('.owl-carousel').owlCarousel({
   autoWidth:true,
   autoplay: true,
   autoplayTimeout: 3000,
-  autoplayHoverPause: true,
+  autoplayHoverPause: true,  
   responsive: {
     0: {
-      items: 1,      
+      items: 1,
+      margin: 50,
+      center: true        
     },
-    600: {
-      items: 2,      
+    450: {
+      items: 1,
+      margin: 50,
+      center: true      
     },
     1000: {
-      items: 3,      
+      items: 3,
+      margin: 50,
+      center: true      
+    },
+    1200: {
+      items: 3,
+      margin: 50,
+      center: true       
     },
   }
 
