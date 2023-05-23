@@ -1,0 +1,26 @@
+@mixin theme($theme: $color-01, $bg: $color-04) {
+    background-color: $bg;
+    border: 1px solid $theme;
+    box-shadow: 0 0 1px rgba($color-default, .25);
+}
+
+.vinhos {
+   
+    &__title {
+        @include theme($theme: #ccc, $bg: #fff);
+        color: $color-02;
+    }
+
+    &__item {
+        color: $color-04;
+
+    &--destack {
+        @include theme;
+    }
+
+}
+
+    &__button {
+        background-color: $color-default;
+    }
+}
