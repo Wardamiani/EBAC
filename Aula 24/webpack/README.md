@@ -57,7 +57,7 @@ npm install --save-dev file-loader
 ## Criar a pasta Dist
 
 ```
-npx webpack --config webpack.config.js
+npx webpack --config webpack.config.js // npm run build
 ```
 
 ## Instalar servidor HTTP
@@ -69,5 +69,5 @@ npm install http-server --global
 ## Abrir HTTP
 
 ```
-http-server ./src
+http-server ./dist
 ```

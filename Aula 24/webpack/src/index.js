@@ -1,5 +1,5 @@
 import './styles.scss'
-import img from './matrix.png'
+import img from './confeitaria.jpg'
 
 function rootStyle(){
     const elemRoot = document.getElementById('root')
@@ -8,7 +8,7 @@ function rootStyle(){
 
 function titleComponent(){
     const elemH1 = document.createElement('h1')
-    elemH1.innerHTML = 'Hello world 6'
+    elemH1.innerHTML = 'Patisserie'
     elemH1.classList.add('title')
     return elemH1
 }
