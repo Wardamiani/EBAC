@@ -1,45 +1,73 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>VISITE QUEBEC</title>
-</head>
-<body>
-    <div id="background-img">
-    <section class="container-navbar">
-        <a href="">DESTINO</a>
-        <a href="">PACOTES</a>
-        <a href="">CONTATO</a>
-        <a href="">SOBRE</a>    
-    </section> 
-    <div class="imagebox" id="quebec"></div>
-    <img src="./assets/quebec.jpg" alt="d">
-    </div>
-</body>
+# Webpack
+- Empacotador de módulos JS
+- Utilizado por diversos frameworks modernos como o React, Angular...
+- Trabalha com o Node.js
+
+## Instalação
+
+1. Iniciar o projeto no diretório
+```
+npm init -y
+```
+
+2. Instalar o Webpack como dependência de desenvolvimento
+```
+npm install --save-dev webpack webpack-cli
+```
 
 
+## Trabalhando com HTML
+É necessário trabalhar com plugin para ampliar as possibilidades de uso, instalação:
+
+```
+npm install --save-dev html-webpack-plugin
+```
+
+## Adicinando CSS
+Para trabalhar com estilos também compensa adicionar algumas extensões.
+- node-sass: compilador de sass para node
+- sass-loader: carrega para o Webpack compilar
+- style-loader: injeta estilos na árvore de objetos (DOM)
+- css-loader: interpreta diretivas do CSS (import,..)
+- extract: extrai CSS do JS
+
+```
+npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin
+```
+
+- Sistema de módulos
+- Gerenciamento de dependências
+- Desenvolvimento x Produção
+
+## Melhorando a compatibilidade do JS com Babel
+Babel transforma o código JS para uma versão com maior compatibilidade para navegadores antigos
+
+```
+npm install --save-dev @babel/core @babel/preset-env babel-loader
+```
 
 
-import '../scss/styles.scss'
-import imageQuebec from '../assets/quebec.jpg'
-// import imageNotebook from '../assets/notebook.jpg'
+## Trabalhando com imagens
+Adicionar file loader
 
-const elemRoot = document.getElementById('root')
-elemRoot.classList.add('container')
+```
+npm install --save-dev file-loader
+```
 
-const elemImageQuebec = new Image()
-elemImageQuebec.src = imageQuebec
+## Criar a pasta Dist
 
-// const elemImageNotebook = new Image()
-// elemImageNotebook.src = imageNotebook
+```
+npx webpack --config webpack.config.js // npm run build
+```
 
+## Instalar servidor HTTP
 
-document.querySelector('#quebec')
-    .appendChild(elemImageQuebec)
+```
+npm install http-server --global
+```
 
-// document.querySelector('#notebook')
-//    .appendChild(elemImageNotebook)
+## Abrir HTTP
+
+```
+http-server ./dist
+```

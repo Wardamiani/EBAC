@@ -1,0 +1,16 @@
+.scuba {
+    position: relative;
+    top: 400em;
+    background-image: url(../assets/img/ending/scuba.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: solid 10px rgb(248, 218, 149);
+    overflow: hidden;
+    height: 800px;
+    background-size: cover;
+}
+
+.titulo-final {
+    position: absolute;
+    top: 3em;
+}

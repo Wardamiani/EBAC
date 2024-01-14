@@ -1,0 +1,61 @@
+$color-font: rgb(255, 255, 255) ;
+$color-bg-default: rgb(173, 173, 173);
+$color-bg-boxes: #FD3;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.3rem;
+$font-size-animation: 3.3rem;
+$font-bitter: 'Bitter', serif;
+$font-silk: 'Silk', 'sans-serif';
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'silk';
+    src: url('../assets/fonts/silk-serif-webfont.woff2') format('woff2'),
+         url('../assets/fonts/silk-serif-webfont.woff') format('woff'),
+         url('../assets/fonts/silk-serif.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: $font-size-default;
+    font-family: $font-bitter;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 30em;
+    background-image: url(../assets/imgfundo.jpg);
+    max-width: 1920px;
+    height: 48em;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    -webkit-mask-image: linear-gradient(black 60%, transparent);
+    mask-image: linear-gradient(black 60%, transparent);
+    z-index: 10;
+}
+
+.titulo_principal {
+    font-size: large;
+    font-family: $font-silk;
+    color: $color-font;
+    font-size: 5rem;
+    line-height: 6rem;
+    text-shadow: 2px 2px #00000086;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+
+@import url(./reset.scss);
+@import url(./navbar.scss);
+@import url(./cards.scss);
+@import url(./activities.scss);
+@import url(./carrossel.scss);
+@import url(./resort.scss);
+@import url(./scuba.scss);
