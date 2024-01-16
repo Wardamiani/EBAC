@@ -13,9 +13,14 @@
     position: fixed;
     overflow: hidden;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         gap: 1em;
         align-items: center;
+    }
+
+    @media (width >= 451px) and (width <= 800px) {
+        gap: 2em;
+        align-items: center;      
     }
 
 }
@@ -30,6 +35,13 @@
 
     @media (max-width: 450px) {
         font-size: .54em;
+        text-align: center;
+        padding: .2em;
+    }
+
+    @media (width >= 451px) and (width <= 800px) {
+        font-size: .7em;
+        align-items: center;
         text-align: center;
     }
     }

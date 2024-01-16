@@ -1,19 +1,57 @@
 .resorts {
     position: absolute;
-    top: 227em;
+    top: 216em;
     background-image: url(../assets/img/bg-middle.jpg);
     object-fit: contain;
     object-fit: fill;
     border-bottom: solid 10px rgb(248, 218, 149);
     overflow: hidden;
+    width: 100%;
+
+
+    @media (max-width: 1150px) {
+        top: 240em;
+    }
+
+    @media (max-width: 1000px) {
+        top: 260em;
+    }
 
     @media (max-width: 900px) {
         top: 255em;
     }
 
-    @media (max-width: 450px) {
-        top: 250em;
+    @media (max-width: 900px) {
+        top: 253em;
     }
+
+    @media (max-width: 800px) {
+        top: 300em;
+    }
+
+    @media (max-width: 750px) {
+        top: 295em;
+    }
+
+    @media (max-width: 700px) {
+        top: 290em;
+    }
+
+    @media (max-width: 600px) {
+        top: 274em;
+    }
+
+    @media (max-width: 500px) {
+        top: 256em;
+    }
+
+    @media (max-width: 403px) {
+        top: 258em;
+    }
+
+
+
+
 }
 
     .titulo-resort {
@@ -67,3 +105,25 @@
         padding: 1em;
         overflow: hidden;
     }
+
+    .scuba {
+        background-repeat: no-repeat;
+        background-image: url(../assets/img/ending/scuba.jpg);
+        width: 100%;
+        border-bottom: solid 10px rgb(248, 218, 149);
+        overflow: hidden;
+        height: 800px;
+        background-size: cover;
+
+    }
+    
+    .titulo-final {
+        align-items: center;
+        margin: 2em;
+        border-bottom: none;
+        @media (max-width: 450px) {
+            font-size: 1em;
+            line-height: 2rem; 
+        }
+    }
+    

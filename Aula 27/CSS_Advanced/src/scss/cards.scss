@@ -11,7 +11,7 @@
     width: 90%;
     overflow: hidden;
 
-    @media (max-width: 900px) {
+    @media (max-width: 1150px) {
     overflow: hidden;
     right: 2em;
     left: 2em;
@@ -20,7 +20,7 @@
     grid-template-columns: auto auto;
     }    
 
-    @media (max-width: 400px) {
+    @media (max-width: 800px) {
        grid-template-columns: auto;
        top: 25em;
        right: 1em;
@@ -53,6 +53,18 @@
         width: 15em;
         background-color: rgba(198, 216, 222, 0.547);
     }
+
+    @media (min-width: 500px) and (max-width: 800px) {
+        width: 21em;
+        height: 22em;
+        background-color: rgba(198, 216, 222, 0.547);
+    }
+
+    @media (min-width: 350px) and (max-width: 600px) {
+        width: 20rem;
+        height: 19em;
+    }
+    
 }
 
 .img-card {
@@ -62,6 +74,10 @@
     position: absolute;
     top: 0;
     overflow: hidden;
+
+    @media (max-width: 800px) {
+        object-fit: cover;
+    }
 }   
     .card-h1 {
        position: absolute;
@@ -72,6 +88,17 @@
        text-align: center;
        width: 100%;
        overflow: hidden;
+
+       @media (max-width: 800px) {
+        font-size: 1.3em;
+        bottom: 42%;
+    }
+
+    @media (min-width: 350px) and (max-width: 600px) {
+        font-size: .9em;
+        bottom: 38%;
+    }
+
     }
 
     .p-card {
@@ -84,4 +111,12 @@
         color: rgb(100, 100, 100);
         font-family: $font-bitter;
         overflow: hidden;
+
+        @media (max-width: 800px) {
+            font-size: 1.33em;
+        }
+
+        @media (min-width: 350px) and (max-width: 600px) {
+            font-size: 1em;
+        }
     }
