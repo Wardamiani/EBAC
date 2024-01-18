@@ -1,0 +1,47 @@
+.nav {
+    background-color: rgba(34, 57, 111, 0.516);
+    padding: .6em;
+    display: flex;
+    justify-content: center;
+    z-index: 200;
+    gap: 3em;   
+    right: 0;
+    left: 0;
+    box-shadow: 0 20px 30px Orgba(o, 0,0,0.15) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(30px) !important;    
+    position: fixed;
+    overflow: hidden;
+
+    @media (max-width: 450px) {
+        gap: 1em;
+        align-items: center;
+    }
+
+    @media (width >= 451px) and (width <= 800px) {
+        gap: 2em;
+        align-items: center;      
+    }
+
+}
+
+    a {
+        font-weight: 400;
+        font-size: 1em;
+        text-decoration: none;
+        color: white;
+        overflow: hidden;
+
+
+    @media (max-width: 450px) {
+        font-size: .54em;
+        text-align: center;
+        padding: .2em;
+    }
+
+    @media (width >= 451px) and (width <= 800px) {
+        font-size: .7em;
+        align-items: center;
+        text-align: center;
+    }
+    }

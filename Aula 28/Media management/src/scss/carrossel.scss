@@ -1,0 +1,84 @@
+.carrossel {
+    position: absolute;
+    top: 174em;
+    width: 100%;
+    display: block;   
+    overflow: hidden;
+
+    @media (max-width: 1150px) {
+        top: 197em;
+    }
+
+    @media (max-width: 1000px) {
+        top: 217em;
+    }
+
+    @media (max-width: 800px) {
+        top: 264em;
+    }
+
+    @media (min-width: 500px) and (max-width: 600px) {
+        top: 241em;
+    }
+
+    @media (min-width: 600px) and (max-width: 700px) {
+        top: 258em;
+    }
+
+    @media (min-width: 350px) and (max-width: 500px) {
+        top: 225em;
+    }
+}
+ 
+ 
+ .img {           
+        width: 900px;
+
+        @media (max-width: 950px) {
+            width: 700px;
+        }
+
+        @media (max-width: 750px) {
+            width: 500px;
+        }
+
+        @media (max-width: 500px) {
+            width: 400px;
+        }
+
+ }
+
+    img {
+        border-radius: .5em;
+        overflow: hidden;
+    }
+    
+    .titulo-carrossel {
+        background-image: url(../assets/img/bg-eventos.jpg);
+        background-size: cover;
+        object-fit: contain;
+        background-position: 5%;
+        width: 100%;
+        overflow: hidden;
+
+
+    }
+
+    .eventos-p {
+        font-size: 1em;
+        color: rgb(106, 106, 106);
+        font-weight: 500;
+        text-align: center;
+        width: 95%;  
+        padding: 2em;
+        overflow: hidden;
+        
+    }
+
+    .owl-carousel {
+        overflow-x: hidden;
+        line-height: auto;
+        display: flex;
+        width: 100%;  
+        overflow: hidden;
+    }

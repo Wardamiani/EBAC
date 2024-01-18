@@ -1,0 +1,131 @@
+.resorts {
+    position: absolute;
+    top: 216em;
+    background-image: url(../assets/img/bg-middle.jpg);
+    object-fit: contain;
+    object-fit: fill;
+    border-bottom: solid 10px rgb(248, 218, 149);
+    overflow: hidden;
+    width: 100%;
+
+
+    @media (max-width: 1150px) {
+        top: 240em;
+    }
+
+    @media (max-width: 1000px) {
+        top: 260em;
+    }
+
+    @media (max-width: 900px) {
+        top: 255em;
+    }
+
+    @media (max-width: 900px) {
+        top: 253em;
+    }
+
+    @media (max-width: 800px) {
+        top: 300em;
+    }
+
+    @media (max-width: 750px) {
+        top: 295em;
+    }
+
+    @media (max-width: 700px) {
+        top: 290em;
+    }
+
+    @media (max-width: 600px) {
+        top: 274em;
+    }
+
+    @media (max-width: 500px) {
+        top: 256em;
+    }
+
+    @media (max-width: 403px) {
+        top: 258em;
+    }
+
+
+
+
+}
+
+    .titulo-resort {
+        width: 100%;
+        height: 300px;
+        border-bottom: solid 10px rgb(0, 191, 255);
+        background-image: url(../assets/img/ending/end-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+        overflow-x: hidden;
+        text-align: center;
+        overflow: hidden;
+
+        h2 {
+            margin-top: .5em;
+        }
+    }
+
+    .image-grid {
+        padding-bottom: 2em;
+        width: 100%;
+        text-align: right;
+        overflow: hidden;
+
+        @media (max-width: 900px) {         
+            text-align: center;    
+            padding-bottom: 1em;       
+        }
+    }
+
+    .image-grid2 {
+        width: 100%;
+        padding-bottom: 2em;
+        text-align: left;
+        overflow: hidden;
+
+        @media (max-width: 900px) {         
+            text-align: center;    
+            padding-bottom: 1em;       
+        }
+    }
+
+    .eventos-p-resort {
+        top: 244em;
+        font-size: 1em;
+        color: rgb(106, 106, 106);
+        font-weight: 500;
+        text-align: center;
+        width: 95%;  
+        padding: 1em;
+        overflow: hidden;
+    }
+
+    .scuba {
+        background-repeat: no-repeat;
+        background-image: url(../assets/img/ending/scuba.jpg);
+        width: 100%;
+        border-bottom: solid 10px rgb(248, 218, 149);
+        overflow: hidden;
+        height: 800px;
+        background-size: cover;
+
+    }
+    
+   .waves {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: white;   
+
+   }
+   .wave-img {   
+    position: absolute;
+    bottom: 0;
+
+}
