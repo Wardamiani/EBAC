@@ -1,0 +1,132 @@
+body, html {
+    background-image: url(./img/facade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(227, 227, 255);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cardtempo {
+    width: 40%;
+    margin-top: 2%;
+    font-family: Nunito;
+    max-width: 470px;
+    min-width: 350px;
+    background: linear-gradient(
+      135deg,
+      rgba(64, 156, 236, 0.59),
+      rgba(16, 14, 44, 0.795)
+    );
+    text-align: center;
+    padding: 20px;
+    color: #262626;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);    
+  }
+  
+  .cardtempo h4 {
+    font-size: 50px;
+  }
+  .icone-tempo {
+    width: 50px;
+    margin: 0px;
+  }
+    
+  .temperatura ,
+  .vento ,
+  .umidade ,
+  h3 {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+  }
+  
+  .col {
+      margin-top: 5%;
+  }
+  
+  .cidade {
+      color: white;
+      font-size: 25px;
+      margin: 10px;
+  }
+  
+  .detalhes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+  }
+  
+  .search {
+      width: 100%;
+      font-family: Nunito;
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      margin: 3%;
+  }
+  
+  .search input {
+      font-family: Nunito;
+      width: 90%;
+      border-radius: 5px;
+      padding: 80px;
+      border: 0;
+      outline: 0;
+      background-color: white;
+      color: rgb(96, 96, 96);
+      padding: 10px;
+      flex: 1;
+      height: 10px;  
+      font-size: 20px; 
+      text-transform: capitalize;
+      display: flex;
+  }
+  
+  .serch ,
+  button {   
+      
+      font-family: Nunito;
+      border: 0;
+      outline: 0;
+      width: 80%;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: rgb(35, 32, 24);
+      color: white;
+      margin: 3%;
+      font-size: 15px;
+      text-align: center;
+      align-items: center;
+  }
+
+.descricaotempo {
+    font-family: Nunito;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    color: rgb(159, 214, 224);
+    margin: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.weather {
+   display: none; 
+}
+
+.error {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin-top: 2px;
+    text-align: center;
+    display: none;
+}
+
